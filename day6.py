@@ -1,0 +1,33 @@
+1 empty_tuple = ()
+2 print(empty_tuple)
+3 brothers = ('Arjun', 'Kiran')
+4 sisters = ('Priya', 'Anjali')
+5 print(brothers)
+6 print(sisters)
+7 siblings = brothers + sisters
+8 print(siblings)
+9 print(len(siblings))
+10 family_members = siblings + ('Ramesh', 'Lakshmi')
+11 print(family_members)
+12 brother1, brother2, sister1, sister2, father, mother = family_members
+13 print(brother1)
+14 print(brother2)
+15 print(sister1)
+16 print(sister2)
+17 print(father)
+18 print(mother)
+19 fruits = ('banana', 'orange', 'mango')
+20 vegetables = ('Tomato', 'Potato', 'Cabbage')
+21 animal_products = ('milk', 'meat', 'butter')
+22 food_stuff_tp = fruits + vegetables + animal_products
+23 print(food_stuff_tp)
+24 food_stuff_lt = list(food_stuff_tp)
+25 print(food_stuff_lt)
+26 middle = len(food_stuff_lt) // 2
+27 print(food_stuff_lt[middle])
+28 print(food_stuff_lt[:3])
+29 print(food_stuff_lt[-3:])
+30 del food_stuff_tp
+31 nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
+32 print('Estonia' in nordic_countries)
+33 print('Iceland' in nordic_countries)
